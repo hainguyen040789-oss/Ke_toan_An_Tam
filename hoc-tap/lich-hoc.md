@@ -47,13 +47,13 @@ Mỗi buổi: **5' hỏi "vì sao"** về bài trước → **20' bài chính** 
 |---|---|
 | Thứ 2 | Toán – hiểu công thức/định lý từ gốc |
 | Thứ 3 | Tiếng Anh – ngữ pháp theo ngữ cảnh |
-| Thứ 4 | Ngữ văn – đọc hiểu văn bản ngoài SGK |
+| Thứ 4 | Ngữ văn – tuần lẻ: đọc hiểu văn bản ngoài SGK; tuần chẵn: lập dàn ý, viết đoạn nghị luận |
 | Thứ 5 | Toán – 1 bài giải 2 cách |
-| Thứ 6 | Ngữ văn – lập dàn ý, viết đoạn nghị luận |
+| Thứ 6 | Khoa học tự nhiên – hiểu bản chất hiện tượng, bài tập Lý/Hóa/Sinh đang học |
 | Thứ 7 | Mini đề thi vào 10 TP.HCM, bấm giờ 25' – xoay vòng Toán → Anh → Văn (Văn: 1 phần đề) |
 | Chủ nhật | Chữa đề thứ 7 (15') + Tiếng Anh: đọc hiểu, viết lại câu (15') |
 
-Khoa học tự nhiên của Khủng Long: học trên lớp, ở nhà chỉ ôn khi sắp kiểm tra (thay bài chính của ngày hôm đó). Khủng Long không học Lịch sử – Địa lý ở nhà.
+Khủng Long học Khoa học tự nhiên cố định tối thứ 6; không học Lịch sử – Địa lý ở nhà.
 
 ## Mốc trong năm học
 
