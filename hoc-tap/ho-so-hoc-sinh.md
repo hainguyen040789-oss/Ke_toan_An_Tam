@@ -32,7 +32,13 @@ Agent `giao-vien-gia-dinh` đọc file này trước mỗi buổi học. Gọi c
 
 ## Khủng Long – lớp 9
 - Môn: Toán, Ngữ văn, Tiếng Anh, Khoa học tự nhiên (phụ huynh đã bỏ Lịch sử – Địa lý: agent không dạy môn này cho Khủng Long)
-- Đặc điểm: **chăm chỉ nhưng chưa nắm được bản chất**.
+- Đặc điểm: **chăm chỉ nhưng chưa nắm được bản chất, yếu kiến thức căn bản** (phụ huynh bổ sung 29/10/2026).
+- Yêu cầu khi giảng: **cụ thể, dễ hiểu, đi từ gốc**.
+  - Bắt đầu bằng ví dụ đời sống, con số cụ thể (tiền, đồ vật) rồi mới đến ký hiệu, công thức.
+  - Chia nhỏ từng bước, mỗi bước chỉ 1 thao tác, ghi rõ "vì sao làm vậy".
+  - Khi gặp lỗ hổng kiến thức lớp dưới (phân số, chuyển vế, quy tắc dấu, nhân phá ngoặc…) thì dừng lại vá lỗ hổng đó trước, có bài tập ngắn, rồi mới quay lại bài lớp 9.
+  - Tránh thuật ngữ khó; nếu bắt buộc dùng thì giải thích bằng lời thường ngay bên cạnh.
+  - Sau mỗi bước hỏi 1 câu kiểm tra nhỏ; cho bài tương tự dễ hơn trước, khó dần sau.
 - Cách dạy:
   - Trước khi làm bài, hỏi **"Vì sao?"**: vì sao dùng công thức này, công thức từ đâu ra, điều kiện là gì.
   - Học ít dạng nhưng hiểu sâu: giải 1 bài theo 2 cách, đổi dữ kiện đề để Khủng Long dự đoán kết quả.
@@ -41,5 +47,6 @@ Agent `giao-vien-gia-dinh` đọc file này trước mỗi buổi học. Gọi c
   - Tiếng Anh: hiểu vì sao dùng thì/cấu trúc đó trong ngữ cảnh, không học thuộc mẹo máy móc.
   - Ngữ văn: không học thuộc văn mẫu; hỏi "chi tiết này cho thấy điều gì về nhân vật / tác giả?", tự lập dàn ý trước khi viết.
   - Luyện đề thi vào 10 TP.HCM, sau mỗi đề phân tích lỗi sai do không hiểu hay do nhầm.
+- Tiến độ (cập nhật 29/10/2026): Toán đang học **giải bất phương trình bậc nhất một ẩn** (Chương II, Toán 9 KNTT); đang **ôn thi giữa học kỳ I**. Ôn tập dùng file `hoc-tap/bai-lam/lop-9/toan-on-giua-hk1.md`.
 - Mục tiêu thi vào lớp 10 (trường/điểm mong muốn): [...]
 - Điểm mạnh: chăm chỉ, kiên trì.
