@@ -5,7 +5,7 @@ Học lệch giờ để phụ huynh kèm được Heo Mập; Dê Ốm và Khủ
 
 | Giờ gợi ý | Bé |
 |---|---|
-| 19:00 – 19:30 | 🐷 Heo Mập (có phụ huynh ngồi cùng; thứ 2 và thứ 4 học 17:30 – 18:00) |
+| 19:00 – 19:30 | 🐷 Heo Mập (có phụ huynh ngồi cùng; thứ 2 và thứ 4 nghỉ hoặc học nhẹ sau 20:00) |
 | 19:30 – 20:00 | 🐐 Dê Ốm |
 | 20:00 – 20:30 | 🦖 Khủng Long |
 
@@ -13,17 +13,17 @@ Học lệch giờ để phụ huynh kèm được Heo Mập; Dê Ốm và Khủ
 
 Mỗi buổi: **5' tính nhẩm chậm – chắc** → **20' bài chính** → **5' kiểm tra lại bài + nhận ⭐**. Nghỉ 2 phút ở giữa nếu bé mệt.
 
-Heo Mập **đi học thêm tối thứ 2 và thứ 4** → hai hôm đó học ở nhà sớm hơn (17:30 – 18:00), bài nhẹ để bé không quá tải.
+Heo Mập **đi học thêm tối thứ 2 và thứ 4** → hai hôm đó **nghỉ**, hoặc nếu bé còn sức thì học nhẹ **sau 20:00, tối đa 15–20'** (không bắt buộc, không giao bài mới). Các môn chính dồn vào 5 ngày còn lại.
 
-| Thứ | Giờ | Bài chính (20') |
+| Thứ | Giờ | Bài chính |
 |---|---|---|
-| Thứ 2 | 17:30 | Tiếng Anh – từ vựng, hát, nói câu ngắn (nhẹ) |
+| Thứ 2 | sau 20:00 (tùy chọn) | Nghỉ – hoặc 15' Tiếng Anh nhẹ: nghe hát, ôn từ vựng |
 | Thứ 3 | 19:00 | Toán – bài mới trên lớp, đặt tính và thử lại |
-| Thứ 4 | 17:30 | Tự nhiên và Xã hội – kể chuyện, quan sát quanh nhà (nhẹ) |
+| Thứ 4 | sau 20:00 (tùy chọn) | Nghỉ – hoặc 15' đọc truyện / xem video Tự nhiên và Xã hội |
 | Thứ 5 | 19:00 | Tiếng Việt – đọc to, chính tả, soát lỗi |
 | Thứ 6 | 19:00 | Toán – bài có lời văn, luyện tính cẩn thận |
-| Thứ 7 | 19:00 | Tiếng Việt – đọc truyện, kể lại, viết 3–5 câu + 5' Tiếng Anh trò chơi |
-| Chủ nhật | 19:00 | Toán: trò "thám tử tìm lỗi sai" + đếm ⭐ cả tuần |
+| Thứ 7 | 19:00 | Tiếng Anh (15') + Tự nhiên và Xã hội (15') – dạng trò chơi |
+| Chủ nhật | 19:00 | Tiếng Việt: đọc truyện, kể lại (15') + Toán: "thám tử tìm lỗi sai", đếm ⭐ (15') |
 
 ## 🐐 Dê Ốm – lớp 6 (chống nhanh quên)
 
