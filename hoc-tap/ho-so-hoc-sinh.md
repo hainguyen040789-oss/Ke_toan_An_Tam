@@ -31,7 +31,7 @@ Agent `giao-vien-gia-dinh` đọc file này trước mỗi buổi học. Gọi c
 - Điểm mạnh: hiểu bài nhanh.
 
 ## Khủng Long – lớp 9
-- Môn: Toán, Ngữ văn, Tiếng Anh, Khoa học tự nhiên, Lịch sử – Địa lý
+- Môn: Toán, Ngữ văn, Tiếng Anh, Khoa học tự nhiên (phụ huynh đã bỏ Lịch sử – Địa lý: agent không dạy môn này cho Khủng Long)
 - Đặc điểm: **chăm chỉ nhưng chưa nắm được bản chất**.
 - Cách dạy:
   - Trước khi làm bài, hỏi **"Vì sao?"**: vì sao dùng công thức này, công thức từ đâu ra, điều kiện là gì.

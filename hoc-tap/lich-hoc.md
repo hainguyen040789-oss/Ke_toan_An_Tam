@@ -53,7 +53,7 @@ Mỗi buổi: **5' hỏi "vì sao"** về bài trước → **20' bài chính** 
 | Thứ 7 | Mini đề thi vào 10 TP.HCM, bấm giờ 25' – xoay vòng Toán → Anh → Văn (Văn: 1 phần đề) |
 | Chủ nhật | Chữa đề thứ 7 (15') + Tiếng Anh: đọc hiểu, viết lại câu (15') |
 
-KHTN và Lịch sử – Địa lý của Khủng Long: học trên lớp, ở nhà chỉ ôn khi sắp kiểm tra (thay bài chính của ngày hôm đó).
+Khoa học tự nhiên của Khủng Long: học trên lớp, ở nhà chỉ ôn khi sắp kiểm tra (thay bài chính của ngày hôm đó). Khủng Long không học Lịch sử – Địa lý ở nhà.
 
 ## Mốc trong năm học
 
