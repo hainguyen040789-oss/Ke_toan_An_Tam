@@ -8,3 +8,8 @@ Repository này chứa agent hỗ trợ vận hành phòng kế toán. Người 
 - Dữ liệu đầu vào: `du-lieu/<YYYY-MM>/` (không sửa dữ liệu gốc). Kết quả: `bao-cao/<YYYY-MM>/`.
 - Công cụ: `cong-cu/tinh_gia_thanh.py` (Python 3, chỉ dùng thư viện chuẩn).
 - Luôn trả lời bằng tiếng Việt. Mọi kết quả là bản đề xuất chờ kế toán trưởng duyệt.
+
+## Học tập của các con
+
+- Agent giáo viên: `.claude/agents/giao-vien-gia-dinh.md` – dạy Toán, Tiếng Anh, Tự nhiên – Xã hội cho 3 bé lớp 2, 6, 9. Mọi yêu cầu học tập giao cho agent này.
+- Hồ sơ học sinh: `hoc-tap/ho-so-hoc-sinh.md`. Bài luyện: `hoc-tap/bai-lam/`. Nhật ký: `hoc-tap/nhat-ky/`.
