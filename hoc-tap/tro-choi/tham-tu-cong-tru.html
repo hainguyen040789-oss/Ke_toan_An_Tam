@@ -1,0 +1,221 @@
+<title>Thám tử Cộng Trừ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@500;700;800&display=swap">
+<style>
+/* Layout: một cột như trang vở ô li, mỗi màn một việc, nút to cho ngón tay bé */
+:root{
+  --paper:#fbfcff; --grid:#dfe7f6; --ink:#4b2a8c; --ink-soft:#7a64a8;
+  --red:#d6363b; --star:#f4b400; --ok:#1f8a4c; --card:#ffffff; --line:#c9d3ea;
+  --key:#efeaf9; --key-press:#ddd2f3;
+  --f-display:"Baloo 2", "Nunito", system-ui, sans-serif;
+  --f-body:"Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#1c2420; --grid:#26302b; --ink:#f1ecdf; --ink-soft:#b9b3a3;
+  --red:#ff7a6e; --star:#ffd24a; --ok:#6fd49a; --card:#232d28; --line:#3a4640;
+  --key:#2c3832; --key-press:#3a4a42; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#1c2420; --grid:#26302b; --ink:#f1ecdf; --ink-soft:#b9b3a3;
+  --red:#ff7a6e; --star:#ffd24a; --ok:#6fd49a; --card:#232d28; --line:#3a4640;
+  --key:#2c3832; --key-press:#3a4a42; color-scheme:dark}
+html,body{height:100%}
+body{
+  background-color:var(--paper);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:22px 22px;
+  color:var(--ink); font-family:var(--f-body); font-size:17px;
+  padding-left:max(16px,env(safe-area-inset-left,0px)); padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:16px 28px;
+}
+main{max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1{font-family:var(--f-display);font-weight:800;font-size:2rem;line-height:1.1;margin:0;text-wrap:balance}
+.sub{color:var(--ink-soft);margin:0}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-weight:800}
+.chip{background:var(--card);border:2px solid var(--line);border-radius:999px;padding:4px 12px;font-variant-numeric:tabular-nums}
+.steps{display:flex;gap:6px;flex-wrap:wrap;font-weight:800;font-size:.95rem}
+.steps span{padding:4px 10px;border-radius:8px;color:var(--ink-soft);border:2px dashed var(--line)}
+.steps span.on{color:var(--paper);background:var(--ink);border-color:var(--ink)}
+.card{background:var(--card);border:2px solid var(--line);border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:14px}
+.prob{font-family:var(--f-display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem);text-align:center;line-height:1.1;font-variant-numeric:tabular-nums}
+.box{display:inline-block;min-width:1.6em;border-bottom:4px solid var(--ink);color:var(--ink)}
+.box.empty{color:var(--line)}
+.hint{text-align:center;color:var(--ink-soft);margin:0;font-weight:700}
+.msg{text-align:center;font-weight:800;font-size:1.15rem;margin:0;min-height:1.4em}
+.msg.bad{color:var(--red)} .msg.good{color:var(--ok)}
+.pad{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+button{font-family:var(--f-display);font-weight:800;cursor:pointer;border:none;color:var(--ink)}
+button:focus-visible{outline:3px solid var(--star);outline-offset:2px}
+.pad button{background:var(--key);font-size:1.9rem;padding:10px 0;border-radius:14px}
+.pad button:active{background:var(--key-press)}
+.pad .del{font-size:1.2rem}
+.pad .go{background:var(--ink);color:var(--paper);font-size:1.3rem}
+.big{background:var(--ink);color:var(--paper);font-size:1.3rem;padding:14px 18px;border-radius:14px;width:100%}
+.ghost{background:var(--key);font-size:1.15rem;padding:12px 16px;border-radius:14px;width:100%}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.yes{background:var(--ok);color:var(--paper);font-size:1.4rem;padding:16px;border-radius:14px}
+.no{background:var(--red);color:var(--paper);font-size:1.4rem;padding:16px;border-radius:14px}
+.menu{display:grid;gap:12px}
+.mode{background:var(--card);border:2px solid var(--line);border-radius:18px;padding:16px;text-align:left;display:flex;flex-direction:column;gap:4px}
+.mode b{font-size:1.4rem}
+.mode small{font-family:var(--f-body);font-weight:700;color:var(--ink-soft);font-size:.95rem}
+.redpen{font-family:var(--f-display);color:var(--red);font-weight:800}
+.strike{text-decoration:line-through;text-decoration-color:var(--red);text-decoration-thickness:4px}
+.stars{font-size:2rem;text-align:center;letter-spacing:4px;word-break:break-all}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+td{padding:6px 4px;border-bottom:1px solid var(--line)}
+td:last-child{text-align:right;font-weight:800}
+.note{font-size:.95rem;color:var(--ink-soft);margin:0}
+@media (prefers-reduced-motion:no-preference){.pop{animation:pop .35s ease-out}@keyframes pop{0%{transform:scale(.85)}70%{transform:scale(1.06)}100%{transform:scale(1)}}}
+</style>
+
+<main id="app"></main>
+
+<script>
+const N_TINH = 10, N_THAMTU = 6;
+const rnd = (a,b) => a + Math.floor(Math.random()*(b-a+1));
+// Cặp số cộng qua 10: hai số từ 2 đến 9, tổng từ 11 đến 18
+function pairQua10(){ let x,y; do{ x=rnd(2,9); y=rnd(2,9);}while(x+y<=10); return [x,y]; }
+function makeTinh(){
+  const [x,y] = pairQua10();
+  if (Math.random()<0.5) return {op:'+', a:x, b:y, ans:x+y};
+  return {op:'−', a:x+y, b:y, ans:x};
+}
+function makeThamTu(){
+  const q = makeTinh();
+  const right = Math.random()<0.4;
+  let shown = q.ans;
+  if(!right){ const d=[-2,-1,1,1,-1,2][rnd(0,5)]; shown=q.ans+d; if(shown<0) shown=q.ans+1; }
+  return {...q, shown, right};
+}
+
+let S;
+function fresh(){ return {screen:'menu', mode:null, list:[], i:0, step:'lam', input:'', msg:'', msgCls:'', stars:0, tuSua:0, loiAu:0, fixedThis:false, log:[] }; }
+function start(data){ S = (data && data.S) || fresh(); render(); }
+window.claude?.hot?.snapshot?.(() => ({S}));
+
+function beginMode(mode){
+  S = fresh(); S.mode = mode; S.screen='play';
+  S.list = Array.from({length: mode==='tinh'?N_TINH:N_THAMTU}, mode==='tinh'?makeTinh:makeThamTu);
+  S.step = mode==='tinh' ? 'lam' : 'chon';
+  render();
+}
+const cur = () => S.list[S.i];
+function checkProb(q){ return q.op==='+' ? `${q.b} + ${q.a}` : `${S.myAns} + ${q.b}`; }
+
+function press(k){
+  if(k==='del'){ S.input=S.input.slice(0,-1); }
+  else if(k==='ok'){ submit(); return; }
+  else if(S.input.length<2){ S.input += k; }
+  S.msg=''; render();
+}
+
+function submit(){
+  if(S.input===''){ S.msg='Con điền số vào ô trống đã nhé!'; S.msgCls='bad'; render(); return; }
+  const v = +S.input, q = cur();
+  if(S.mode==='tinh'){
+    if(S.step==='lam'){ S.myAns=v; S.input=''; S.step='kiemtra'; S.msg=''; render(); return; }
+    // Bước kiểm tra lại
+    const target = q.op==='+' ? S.myAns : q.a;
+    if(v!==target){
+      S.fixedThis = true; S.step='lam'; S.input=String(S.myAns);
+      S.msg = q.op==='+'
+        ? `Ơ! ${q.b} + ${q.a} ra ${v}, mà con làm ${q.a} + ${q.b} = ${S.myAns}. Hai kết quả phải bằng nhau. Con tính lại nhé 🔍`
+        : `Ơ! Thử lại ra ${v}, chưa bằng ${q.a}. Con tính lại phép trừ nhé 🔍`;
+      S.msgCls='bad'; render(); return;
+    }
+    finish(S.myAns===q.ans);
+  } else {
+    finish(v===q.ans);
+  }
+}
+
+function choose(saysRight){
+  const q = cur();
+  if(saysRight){ finish(q.right); return; }
+  if(q.right){ finish(false); return; }
+  S.step='sua'; S.input=''; S.msg='Đúng là sai rồi! Con sửa lại cho đúng nhé.'; S.msgCls='good'; render();
+}
+
+function finish(ok){
+  const q = cur();
+  let kq;
+  if(ok && !S.fixedThis){ S.stars++; kq='⭐'; S.msg='Đúng rồi! Con được 1 ⭐'; S.msgCls='good'; }
+  else if(ok){ S.tuSua++; kq='🔍'; S.msg='Giỏi quá! Nhờ kiểm tra lại mà con tự tìm ra lỗi. Thám tử 🔍!'; S.msgCls='good'; }
+  else { S.loiAu++; kq='✗'; S.msg=`Chưa đúng. ${q.a} ${q.op} ${q.b} = ${q.ans}. Lần sau mình chậm lại nhé.`; S.msgCls='bad'; }
+  S.log.push({p:`${q.a} ${q.op} ${q.b} = ${q.ans}`, kq});
+  S.step='xong'; render();
+}
+
+function next(){
+  S.i++; S.input=''; S.msg=''; S.fixedThis=false;
+  if(S.i>=S.list.length){ S.screen='end'; render(); return; }
+  S.step = S.mode==='tinh' ? 'lam' : 'chon'; render();
+}
+
+function keypad(){
+  const ks=['1','2','3','4','5','6','7','8','9','del','0','ok'];
+  return `<div class="pad">${ks.map(k=>`<button data-k="${k}" class="${k==='del'?'del':k==='ok'?'go':''}" aria-label="${k==='del'?'Xoá':k==='ok'?'Xong':k}">${k==='del'?'⌫ Xoá':k==='ok'?'Xong':k}</button>`).join('')}</div>`;
+}
+const boxv = () => `<span class="box ${S.input===''?'empty':''}">${S.input===''?'?':S.input}</span>`;
+function header(){
+  const total=S.list.length;
+  return `<div class="bar"><span class="chip">Câu ${Math.min(S.i+1,total)}/${total}</span><span class="chip">⭐ ${S.stars}</span><span class="chip">🔍 ${S.tuSua}</span><span class="chip">Lỗi ẩu ${S.loiAu}</span></div>`;
+}
+
+function render(){
+  const app=document.getElementById('app'); let h='';
+  if(S.screen==='menu'){
+    h=`<h1>Thám tử Cộng Trừ</h1>
+    <p class="sub">Ôn bảng cộng, bảng trừ qua 10. Nhớ 3 bước: <b>Đọc đề → Làm → Kiểm tra lại</b>. Làm chậm mà chắc mới được ⭐.</p>
+    <div class="menu">
+      <button class="mode" data-mode="tinh"><b>🐢 Tính chậm – chắc</b><small>${N_TINH} phép tính. Làm xong phải tự kiểm tra lại bằng một phép tính nữa.</small></button>
+      <button class="mode" data-mode="thamtu"><b>🕵️ Tìm lỗi của Gấu Bông</b><small>${N_THAMTU} phép tính Gấu Bông làm vội. Con xem đúng hay sai, sai thì sửa.</small></button>
+    </div>
+    <p class="note">Phụ huynh: ⭐ = đúng ngay; 🔍 = sai nhưng bé tự phát hiện khi kiểm tra lại (rất đáng khen); Lỗi ẩu = nộp kết quả sai.</p>`;
+  } else if(S.screen==='play'){
+    const q=cur();
+    if(S.mode==='tinh'){
+      const steps=`<div class="steps"><span class="${S.step==='lam'?'on':''}">② Làm</span><span class="${S.step==='kiemtra'?'on':''}">③ Kiểm tra lại</span></div>`;
+      let body;
+      if(S.step==='lam') body=`<div class="prob pop">${q.a} ${q.op} ${q.b} = ${boxv()}</div><p class="hint">${q.op==='+'?'Tách số để góp đủ 10 nhé.':'Trừ để về 10 trước, rồi trừ tiếp.'}</p>${keypad()}`;
+      else if(S.step==='kiemtra') body=`<p class="hint">Con vừa làm: ${q.a} ${q.op} ${q.b} = ${S.myAns}</p><p class="hint">${q.op==='+'?'Đổi chỗ hai số, kết quả phải giống nhau:':'Thử lại bằng phép cộng, phải ra '+q.a+':'}</p><div class="prob pop">${checkProb(q)} = ${boxv()}</div>${keypad()}`;
+      else body=`<div class="prob">${q.a} ${q.op} ${q.b} = ${q.ans}</div><button class="big" data-act="next">${S.i+1<S.list.length?'Câu tiếp theo →':'Xem kết quả'}</button>`;
+      h=`${header()}${steps}<div class="card">${body}<p class="msg ${S.msgCls}">${S.msg}</p></div>`;
+    } else {
+      let body;
+      if(S.step==='chon') body=`<p class="hint">Gấu Bông làm thế này:</p><div class="prob pop">${q.a} ${q.op} ${q.b} = ${q.shown}</div><p class="hint">Con tính lại thật chậm. Gấu Bông làm đúng hay sai?</p><div class="two"><button class="yes" data-say="1">✓ Đúng</button><button class="no" data-say="0">✗ Sai</button></div>`;
+      else if(S.step==='sua') body=`<div class="prob">${q.a} ${q.op} ${q.b} = <span class="strike">${q.shown}</span></div><div class="prob pop"><span class="redpen">Sửa:</span> ${boxv()}</div>${keypad()}`;
+      else body=`<div class="prob">${q.a} ${q.op} ${q.b} = ${q.ans}</div><p class="hint">Gấu Bông ${q.right?'làm đúng':'làm sai, viết '+q.shown}.</p><button class="big" data-act="next">${S.i+1<S.list.length?'Câu tiếp theo →':'Xem kết quả'}</button>`;
+      h=`${header()}<div class="card">${body}<p class="msg ${S.msgCls}">${S.msg}</p></div>`;
+    }
+    h+=`<button class="ghost" data-act="menu">← Về trang đầu</button>`;
+  } else {
+    const n=S.list.length, perfect = S.loiAu===0;
+    h=`<h1>${perfect?'Tuyệt vời! 🎉':'Xong rồi!'}</h1>
+    <div class="card"><div class="stars">${'⭐'.repeat(S.stars)||'—'}</div>
+    <p class="msg ${perfect?'good':''}">${S.stars}/${n} câu đúng ngay · ${S.tuSua} câu tự sửa · ${S.loiAu} lỗi ẩu</p>
+    <p class="hint">${perfect?'Không có lỗi ẩu nào. Con kiểm tra lại rất cẩn thận!':'Lần sau mình làm chậm hơn và kiểm tra lại kỹ hơn nhé.'}</p></div>
+    <div class="card"><b>Bảng ghi cho phụ huynh</b><table>${S.log.map(r=>`<tr><td>${r.p}</td><td>${r.kq}</td></tr>`).join('')}</table></div>
+    <div class="two"><button class="big" data-mode="${S.mode}">Chơi lại</button><button class="ghost" data-act="menu">Trang đầu</button></div>`;
+  }
+  app.innerHTML=h;
+}
+
+document.addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b) return;
+  if(b.dataset.mode) beginMode(b.dataset.mode);
+  else if(b.dataset.k) press(b.dataset.k);
+  else if(b.dataset.say) choose(b.dataset.say==='1');
+  else if(b.dataset.act==='next') next();
+  else if(b.dataset.act==='menu'){ S=fresh(); render(); }
+});
+document.addEventListener('keydown',e=>{
+  if(!S || S.screen!=='play' || !['lam','kiemtra','sua'].includes(S.step)) return;
+  if(/^[0-9]$/.test(e.key)) press(e.key);
+  else if(e.key==='Backspace') press('del');
+  else if(e.key==='Enter'){ e.preventDefault(); press('ok'); }
+});
+
+window.claude?.hot?.ready ? window.claude.hot.ready(start) : start(window.claude?.hot?.data ?? {});
+</script>
