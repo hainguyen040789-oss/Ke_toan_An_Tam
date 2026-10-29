@@ -32,7 +32,13 @@ Agent `giao-vien-gia-dinh` đọc file này trước mỗi buổi học. Gọi c
 
 ## Khủng Long – lớp 9
 - Môn: Toán, Ngữ văn, Tiếng Anh, Khoa học tự nhiên (phụ huynh đã bỏ Lịch sử – Địa lý: agent không dạy môn này cho Khủng Long)
-- Đặc điểm: **chăm chỉ nhưng chưa nắm được bản chất**.
+- Đặc điểm: **chăm chỉ nhưng chưa nắm được bản chất, yếu kiến thức căn bản** (phụ huynh bổ sung 29/10/2026).
+- Yêu cầu khi giảng: **cụ thể, dễ hiểu, đi từ gốc**.
+  - Bắt đầu bằng ví dụ đời sống, con số cụ thể (tiền, đồ vật) rồi mới đến ký hiệu, công thức.
+  - Chia nhỏ từng bước, mỗi bước chỉ 1 thao tác, ghi rõ "vì sao làm vậy".
+  - Khi gặp lỗ hổng kiến thức lớp dưới (phân số, chuyển vế, quy tắc dấu, nhân phá ngoặc…) thì dừng lại vá lỗ hổng đó trước, có bài tập ngắn, rồi mới quay lại bài lớp 9.
+  - Tránh thuật ngữ khó; nếu bắt buộc dùng thì giải thích bằng lời thường ngay bên cạnh.
+  - Sau mỗi bước hỏi 1 câu kiểm tra nhỏ; cho bài tương tự dễ hơn trước, khó dần sau.
 - Cách dạy:
   - Trước khi làm bài, hỏi **"Vì sao?"**: vì sao dùng công thức này, công thức từ đâu ra, điều kiện là gì.
   - Học ít dạng nhưng hiểu sâu: giải 1 bài theo 2 cách, đổi dữ kiện đề để Khủng Long dự đoán kết quả.
