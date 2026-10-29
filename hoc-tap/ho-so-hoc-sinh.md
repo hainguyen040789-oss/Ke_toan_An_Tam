@@ -47,5 +47,6 @@ Agent `giao-vien-gia-dinh` đọc file này trước mỗi buổi học. Gọi c
   - Tiếng Anh: hiểu vì sao dùng thì/cấu trúc đó trong ngữ cảnh, không học thuộc mẹo máy móc.
   - Ngữ văn: không học thuộc văn mẫu; hỏi "chi tiết này cho thấy điều gì về nhân vật / tác giả?", tự lập dàn ý trước khi viết.
   - Luyện đề thi vào 10 TP.HCM, sau mỗi đề phân tích lỗi sai do không hiểu hay do nhầm.
+- Tiến độ (cập nhật 29/10/2026): Toán đang học **giải bất phương trình bậc nhất một ẩn** (Chương II, Toán 9 KNTT); đang **ôn thi giữa học kỳ I**. Ôn tập dùng file `hoc-tap/bai-lam/lop-9/toan-on-giua-hk1.md`.
 - Mục tiêu thi vào lớp 10 (trường/điểm mong muốn): [...]
 - Điểm mạnh: chăm chỉ, kiên trì.
