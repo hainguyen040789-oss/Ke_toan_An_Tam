@@ -7,7 +7,6 @@ Agent `giao-vien-gia-dinh` đọc file này trước mỗi buổi học. Gọi c
 - Bộ sách: Kết nối tri thức với cuộc sống (Tiếng Anh: Global Success).
 
 ## Heo Mập – lớp 2
-- Tên thật: Hoàng Phúc
 - Môn: Toán, Tiếng Việt, Tiếng Anh, Tự nhiên và Xã hội
 - Đặc điểm: **tính toán ẩu**.
 - Cách dạy:
@@ -17,7 +16,6 @@ Agent `giao-vien-gia-dinh` đọc file này trước mỗi buổi học. Gọi c
   - Có trò chơi "thám tử tìm lỗi sai": đưa bài làm sai để Heo Mập tự phát hiện.
   - Theo dõi số lỗi do ẩu mỗi buổi để phụ huynh thấy tiến bộ.
   - Tiếng Việt: viết xong đọc lại từng chữ để soát lỗi chính tả và dấu – cùng thói quen "kiểm tra lại" như môn Toán.
-- Tiến độ (cập nhật 29/10/2026): Toán đang ôn bảng cộng, bảng trừ (qua 10)
 - Điểm mạnh: [...]
 
 ## Dê Ốm – lớp 6
