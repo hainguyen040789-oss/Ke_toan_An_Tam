@@ -26,12 +26,3 @@ Agent giáo viên dạy **Toán, Ngữ văn (Tiếng Việt), Tiếng Anh, Tự 
 
 Muốn đổi lịch hoặc hồ sơ: nhắn yêu cầu cho Claude, hoặc sửa trực tiếp file `.md`.
 
-## Dùng trên điện thoại / app Claude (không cần máy tính)
-
-Dùng file `hoc-tap/giao-vien-gia-dinh-skill.zip` (bản Skill):
-
-1. Tải file zip về điện thoại hoặc máy tính.
-2. Mở claude.ai (hoặc app Claude) → **Cài đặt** → **Capabilities / Skills** → **Tải lên skill (Upload skill)** → chọn file zip. Bật skill lên.
-3. Mở cuộc trò chuyện mới và nhắn, ví dụ: "Hôm nay Heo Mập học gì?".
-
-Lưu ý: bản Skill không tự lưu nhật ký. Cuối mỗi buổi Claude đưa khối **📒 Nhật ký buổi học**; phụ huynh lưu lại và dán vào buổi sau để Claude nối tiếp bài.
