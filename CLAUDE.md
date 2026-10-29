@@ -12,4 +12,5 @@ Repository này chứa agent hỗ trợ vận hành phòng kế toán. Người 
 ## Học tập của các con
 
 - Agent giáo viên: `.claude/agents/giao-vien-gia-dinh.md` – dạy Toán, Ngữ văn (Tiếng Việt), Tiếng Anh, Tự nhiên – Xã hội cho 3 bé lớp 2, 6, 9. Mọi yêu cầu học tập giao cho agent này.
+- Hướng dẫn và gói cài đặt: `hoc-tap/HUONG-DAN.md`, `hoc-tap/goi-giao-vien-gia-dinh.zip`.
 - Hồ sơ học sinh: `hoc-tap/ho-so-hoc-sinh.md`. Lịch học: `hoc-tap/lich-hoc.md`. Bài luyện: `hoc-tap/bai-lam/`. Nhật ký: `hoc-tap/nhat-ky/`.
