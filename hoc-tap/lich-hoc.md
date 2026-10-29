@@ -13,17 +13,17 @@ Học lệch giờ để phụ huynh kèm được Heo Mập; Dê Ốm và Khủ
 
 Mỗi buổi: **5' tính nhẩm chậm – chắc** → **20' bài chính** → **5' kiểm tra lại bài + nhận ⭐**. Nghỉ 2 phút ở giữa nếu bé mệt.
 
-Heo Mập **đi học thêm tối thứ 2 và thứ 4** → hai hôm đó học ở nhà sớm hơn (17:30 – 18:00), bài nhẹ để bé không quá tải. Toán dồn sang thứ 3, 5, 6.
+Heo Mập **đi học thêm tối thứ 2 và thứ 4** → hai hôm đó học ở nhà sớm hơn (17:30 – 18:00), bài nhẹ để bé không quá tải.
 
 | Thứ | Giờ | Bài chính (20') |
 |---|---|---|
 | Thứ 2 | 17:30 | Tiếng Anh – từ vựng, hát, nói câu ngắn (nhẹ) |
 | Thứ 3 | 19:00 | Toán – bài mới trên lớp, đặt tính và thử lại |
 | Thứ 4 | 17:30 | Tự nhiên và Xã hội – kể chuyện, quan sát quanh nhà (nhẹ) |
-| Thứ 5 | 19:00 | Toán – bài có lời văn (gạch chân dữ kiện) |
-| Thứ 6 | 19:00 | Toán – luyện tính cẩn thận, ôn cả tuần |
-| Thứ 7 | 19:00 | Tiếng Anh + TNXH dạng trò chơi |
-| Chủ nhật | 19:00 | Trò "thám tử tìm lỗi sai" + đếm ⭐ cả tuần |
+| Thứ 5 | 19:00 | Tiếng Việt – đọc to, chính tả, soát lỗi |
+| Thứ 6 | 19:00 | Toán – bài có lời văn, luyện tính cẩn thận |
+| Thứ 7 | 19:00 | Tiếng Việt – đọc truyện, kể lại, viết 3–5 câu + 5' Tiếng Anh trò chơi |
+| Chủ nhật | 19:00 | Toán: trò "thám tử tìm lỗi sai" + đếm ⭐ cả tuần |
 
 ## 🐐 Dê Ốm – lớp 6 (chống nhanh quên)
 
@@ -33,11 +33,11 @@ Mỗi buổi: **5' ôn bài cũ** (bài cách 1 ngày / 3 ngày / 1 tuần) → 
 |---|---|
 | Thứ 2 | Toán |
 | Thứ 3 | Tiếng Anh – từ vựng + ngữ pháp Unit đang học |
-| Thứ 4 | Khoa học tự nhiên |
+| Thứ 4 | Ngữ văn – đọc hiểu văn bản đang học, làm thẻ ôn |
 | Thứ 5 | Toán |
 | Thứ 6 | Tiếng Anh – đọc, viết câu |
-| Thứ 7 | Lịch sử – Địa lý (sơ đồ tư duy) |
-| Chủ nhật | Kiểm tra nhanh 15' trộn kiến thức cả tuần + 15' ôn thẻ từ vựng |
+| Thứ 7 | KHTN (tuần lẻ) / Lịch sử – Địa lý (tuần chẵn) – sơ đồ tư duy |
+| Chủ nhật | Kiểm tra nhanh 15' trộn kiến thức cả tuần + 15' Ngữ văn: viết đoạn ngắn |
 
 ## 🦖 Khủng Long – lớp 9 (hiểu bản chất, ôn thi vào 10)
 
@@ -47,17 +47,18 @@ Mỗi buổi: **5' hỏi "vì sao"** về bài trước → **20' bài chính** 
 |---|---|
 | Thứ 2 | Toán – hiểu công thức/định lý từ gốc |
 | Thứ 3 | Tiếng Anh – ngữ pháp theo ngữ cảnh |
-| Thứ 4 | Toán – 1 bài giải 2 cách |
-| Thứ 5 | Tiếng Anh – đọc hiểu, viết lại câu |
-| Thứ 6 | KHTN (tuần lẻ) / Lịch sử – Địa lý (tuần chẵn) |
-| Thứ 7 | Mini đề thi vào 10 TP.HCM, bấm giờ 25' (tuần lẻ Toán, tuần chẵn Anh) |
-| Chủ nhật | Chữa đề thứ 7: phân loại lỗi "chưa hiểu" hay "nhầm" |
+| Thứ 4 | Ngữ văn – đọc hiểu văn bản ngoài SGK |
+| Thứ 5 | Toán – 1 bài giải 2 cách |
+| Thứ 6 | Ngữ văn – lập dàn ý, viết đoạn nghị luận |
+| Thứ 7 | Mini đề thi vào 10 TP.HCM, bấm giờ 25' – xoay vòng Toán → Anh → Văn (Văn: 1 phần đề) |
+| Chủ nhật | Chữa đề thứ 7 (15') + Tiếng Anh: đọc hiểu, viết lại câu (15') |
+
+KHTN và Lịch sử – Địa lý của Khủng Long: học trên lớp, ở nhà chỉ ôn khi sắp kiểm tra (thay bài chính của ngày hôm đó).
 
 ## Mốc trong năm học
 
 - **Đầu tháng 12/2026:** chuyển sang ôn thi học kỳ I (giữ khung giờ, bài chính đổi thành ôn tập theo đề cương của trường).
 - **Từ tháng 3/2027:** đề nghị tăng thời gian cho Khủng Long (45–60'/ngày) để ôn thi vào 10.
-- Môn Ngữ văn (môn thi vào 10) chưa nằm trong phạm vi agent – phụ huynh cân nhắc bổ sung.
 
 ## Theo dõi
 
